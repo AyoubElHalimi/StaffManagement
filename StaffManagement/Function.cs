@@ -25,7 +25,7 @@ namespace vtts.Entities.StaffManagement
         [Filter]
         public LocalizedString Name { get; set; }
 
-        [EntryForm(Ordre = 2,MultiLine = true, NumberLine =5, WidthControl = 300)]
+        [EntryForm(Ordre = 2,MultiLine = true, NumberLine =6, WidthControl = 300)]
         [DataGrid(WidthColonne = 200)]
         [Filter]
         public LocalizedString Description { get; set; }
